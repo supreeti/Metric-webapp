@@ -144,7 +144,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [https://github.com/Metric-webapp.git](../../issues/).
+Feel free to check the [https://github.com/supreeti/Metric-webapp.git](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
