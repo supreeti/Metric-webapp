@@ -9,6 +9,8 @@ This project is about World Metric App using React and API.
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [🚀 Live Demo](#live-demo)
+  - [👩‍💻 Presentation](#Presentation)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -58,6 +60,18 @@ React library
 - **Most up to date countries information**
 - **clean UI design**
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+[Checkout the live site here!](https://world-metric-app-y6eo.onrender.com)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Project Presentation <a name="Presentation"></a>
+
+[project presentation here!](https://www.loom.com/share/5c953f13c4ea4ef68ef7236435880cc5?sid=caff4a61-c7d1-4b21-847c-21a06bcc7eaa)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
