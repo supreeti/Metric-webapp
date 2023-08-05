@@ -1,0 +1,570 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`continents Display snapshot Testing testing continents with Snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <section
+        class="continents"
+      >
+        <div
+          class="continent"
+        >
+          <a
+            href="/details/Africa"
+          >
+            <span
+              class="redirectContinent"
+            >
+              <svg
+                class="bi bi-arrow-right-circle"
+                fill="currentColor"
+                height="22"
+                viewBox="0 0 16 16"
+                width="22"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </span>
+            <h2
+              class="continentName"
+            >
+              Africa
+            </h2>
+            <img
+              alt="display of the Africa continent"
+              class="continentImage"
+              src="africa.png"
+            />
+          </a>
+        </div>
+        <div
+          class="continent"
+        >
+          <a
+            href="/details/Europe"
+          >
+            <span
+              class="redirectContinent"
+            >
+              <svg
+                class="bi bi-arrow-right-circle"
+                fill="currentColor"
+                height="22"
+                viewBox="0 0 16 16"
+                width="22"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </span>
+            <h2
+              class="continentName"
+            >
+              Europe
+            </h2>
+            <img
+              alt="display of the Europe continent"
+              class="continentImage"
+              src="europe.png"
+            />
+          </a>
+        </div>
+        <div
+          class="continent"
+        >
+          <a
+            href="/details/North America"
+          >
+            <span
+              class="redirectContinent"
+            >
+              <svg
+                class="bi bi-arrow-right-circle"
+                fill="currentColor"
+                height="22"
+                viewBox="0 0 16 16"
+                width="22"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </span>
+            <h2
+              class="continentName"
+            >
+              North America
+            </h2>
+            <img
+              alt="display of the North America continent"
+              class="continentImage"
+              src="north america.png"
+            />
+          </a>
+        </div>
+        <div
+          class="continent"
+        >
+          <a
+            href="/details/South America"
+          >
+            <span
+              class="redirectContinent"
+            >
+              <svg
+                class="bi bi-arrow-right-circle"
+                fill="currentColor"
+                height="22"
+                viewBox="0 0 16 16"
+                width="22"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </span>
+            <h2
+              class="continentName"
+            >
+              South America
+            </h2>
+            <img
+              alt="display of the South America continent"
+              class="continentImage"
+              src="south america.png"
+            />
+          </a>
+        </div>
+        <div
+          class="continent"
+        >
+          <a
+            href="/details/Asia"
+          >
+            <span
+              class="redirectContinent"
+            >
+              <svg
+                class="bi bi-arrow-right-circle"
+                fill="currentColor"
+                height="22"
+                viewBox="0 0 16 16"
+                width="22"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </span>
+            <h2
+              class="continentName"
+            >
+              Asia
+            </h2>
+            <img
+              alt="display of the Asia continent"
+              class="continentImage"
+              src="asia.png"
+            />
+          </a>
+        </div>
+        <div
+          class="continent"
+        >
+          <a
+            href="/details/Oceania"
+          >
+            <span
+              class="redirectContinent"
+            >
+              <svg
+                class="bi bi-arrow-right-circle"
+                fill="currentColor"
+                height="22"
+                viewBox="0 0 16 16"
+                width="22"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </span>
+            <h2
+              class="continentName"
+            >
+              Oceania
+            </h2>
+            <img
+              alt="display of the Oceania continent"
+              class="continentImage"
+              src="australia.png"
+            />
+          </a>
+        </div>
+        <div
+          class="continent"
+        >
+          <a
+            href="/details/Antarctic"
+          >
+            <span
+              class="redirectContinent"
+            >
+              <svg
+                class="bi bi-arrow-right-circle"
+                fill="currentColor"
+                height="22"
+                viewBox="0 0 16 16"
+                width="22"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </span>
+            <h2
+              class="continentName"
+            >
+              Antarctic
+            </h2>
+            <img
+              alt="display of the Antarctic continent"
+              class="continentImage"
+              src="antarctica.png"
+            />
+          </a>
+        </div>
+        <div>
+          Total Population
+          <br />
+        </div>
+      </section>
+    </div>
+  </body>,
+  "container": <div>
+    <section
+      class="continents"
+    >
+      <div
+        class="continent"
+      >
+        <a
+          href="/details/Africa"
+        >
+          <span
+            class="redirectContinent"
+          >
+            <svg
+              class="bi bi-arrow-right-circle"
+              fill="currentColor"
+              height="22"
+              viewBox="0 0 16 16"
+              width="22"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+          <h2
+            class="continentName"
+          >
+            Africa
+          </h2>
+          <img
+            alt="display of the Africa continent"
+            class="continentImage"
+            src="africa.png"
+          />
+        </a>
+      </div>
+      <div
+        class="continent"
+      >
+        <a
+          href="/details/Europe"
+        >
+          <span
+            class="redirectContinent"
+          >
+            <svg
+              class="bi bi-arrow-right-circle"
+              fill="currentColor"
+              height="22"
+              viewBox="0 0 16 16"
+              width="22"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+          <h2
+            class="continentName"
+          >
+            Europe
+          </h2>
+          <img
+            alt="display of the Europe continent"
+            class="continentImage"
+            src="europe.png"
+          />
+        </a>
+      </div>
+      <div
+        class="continent"
+      >
+        <a
+          href="/details/North America"
+        >
+          <span
+            class="redirectContinent"
+          >
+            <svg
+              class="bi bi-arrow-right-circle"
+              fill="currentColor"
+              height="22"
+              viewBox="0 0 16 16"
+              width="22"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+          <h2
+            class="continentName"
+          >
+            North America
+          </h2>
+          <img
+            alt="display of the North America continent"
+            class="continentImage"
+            src="north america.png"
+          />
+        </a>
+      </div>
+      <div
+        class="continent"
+      >
+        <a
+          href="/details/South America"
+        >
+          <span
+            class="redirectContinent"
+          >
+            <svg
+              class="bi bi-arrow-right-circle"
+              fill="currentColor"
+              height="22"
+              viewBox="0 0 16 16"
+              width="22"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+          <h2
+            class="continentName"
+          >
+            South America
+          </h2>
+          <img
+            alt="display of the South America continent"
+            class="continentImage"
+            src="south america.png"
+          />
+        </a>
+      </div>
+      <div
+        class="continent"
+      >
+        <a
+          href="/details/Asia"
+        >
+          <span
+            class="redirectContinent"
+          >
+            <svg
+              class="bi bi-arrow-right-circle"
+              fill="currentColor"
+              height="22"
+              viewBox="0 0 16 16"
+              width="22"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+          <h2
+            class="continentName"
+          >
+            Asia
+          </h2>
+          <img
+            alt="display of the Asia continent"
+            class="continentImage"
+            src="asia.png"
+          />
+        </a>
+      </div>
+      <div
+        class="continent"
+      >
+        <a
+          href="/details/Oceania"
+        >
+          <span
+            class="redirectContinent"
+          >
+            <svg
+              class="bi bi-arrow-right-circle"
+              fill="currentColor"
+              height="22"
+              viewBox="0 0 16 16"
+              width="22"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+          <h2
+            class="continentName"
+          >
+            Oceania
+          </h2>
+          <img
+            alt="display of the Oceania continent"
+            class="continentImage"
+            src="australia.png"
+          />
+        </a>
+      </div>
+      <div
+        class="continent"
+      >
+        <a
+          href="/details/Antarctic"
+        >
+          <span
+            class="redirectContinent"
+          >
+            <svg
+              class="bi bi-arrow-right-circle"
+              fill="currentColor"
+              height="22"
+              viewBox="0 0 16 16"
+              width="22"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+          <h2
+            class="continentName"
+          >
+            Antarctic
+          </h2>
+          <img
+            alt="display of the Antarctic continent"
+            class="continentImage"
+            src="antarctica.png"
+          />
+        </a>
+      </div>
+      <div>
+        Total Population
+        <br />
+      </div>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

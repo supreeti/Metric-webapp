@@ -1,0 +1,327 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.homepage {
+  max-width: 100%;
+  min-height: 92vh;
+}
+
+.homepageImage {
+  position: relative;
+  overflow: hidden;
+  max-height: 38vh;
+}
+
+.gradientLayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.548), rgba(236, 76, 137, 0.774));
+}
+
+.globe {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+.home {
+  display: block;
+  background-color: #ec4c8a;
+  max-width: 100%;
+  min-height: calc(100vh - 38vh);
+}
+
+.home span {
+  font-size: 0.8rem;
+  font-weight: 400;
+  width: 100%;
+  padding-top: 10px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+.nav {
+  background-color: #ec4c8a;
+  max-width: 100%;
+  height: 8vh;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px 0 black;
+  box-sizing: border-box;
+}
+
+.backKey {
+  width: 10%;
+  padding-left: 10px;
+}
+
+svg {
+  color: white;
+  cursor: pointer;
+}
+
+.backKey > svg {
+  font-weight: bolder;
+  width: 50%;
+  color: white;
+}
+
+.navTitle {
+  width: 70%;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1rem;
+  color: white;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+  width: 16%;
+  margin-right: 15px;
+}
+
+.searchpageholder {
+  width: 100%;
+  min-height: 92vh;
+}
+
+.searchField {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#search {
+  width: 60%;
+  padding: 10px 40px;
+  padding-left: 10px;
+  border-radius: 20px;
+  border: 2px solid #9c2955;
+  margin: 0 auto;
+  margin-top: 50px;
+  position: relative;
+  bottom: 5px;
+}
+
+#search:focus {
+  outline: none;
+  border: none;
+  border: 2px solid #9c2955;
+}
+
+.emptySearchResult {
+  display: block;
+  padding: 10px 20px;
+  margin: 0 auto;
+  margin-top: 0;
+  border: 2px solid #9c2955;
+  background-color: rgba(255, 255, 255, 0.178);
+  width: 80%;
+  border-radius: 10px;
+  text-align: center;
+  color: black;
+}
+
+.searchResults {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 0;
+  border: 2px solid #9c2955;
+  background-color: rgba(255, 255, 255, 0.178);
+  width: 80%;
+  border-radius: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.searchResults > a {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding: 10px 20px;
+  margin: 0 auto;
+}
+
+.countryName {
+  width: 70%;
+}
+
+.countryFlag {
+  width: 70px;
+  height: 40px;
+}
+
+.continents {
+  padding: 20px 10px 20px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  column-gap: 5px;
+  row-gap: 5px;
+}
+
+.continent {
+  min-width: 48.5%;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 3px black;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0));
+}
+
+.continent:nth-child(7n+1) {
+  background-color: #ec4c8a;
+}
+
+.continent:nth-child(7n+2),
+.continent:nth-child(7n+3),
+.continent:nth-child(7n+6),
+.continent:nth-child(7n+7) {
+  background-color: #9c2955;
+}
+
+.continent:nth-child(7n+5),
+.continent:nth-child(7n+6),
+.continent:nth-child(7n+7) {
+  padding-bottom: 15px;
+}
+
+.redirectContinent {
+  display: block;
+}
+
+.redirectContinent > svg {
+  position: relative;
+  left: 83%;
+  top: 13px;
+}
+
+.continentName {
+  font-weight: 700;
+  text-align: end;
+  padding-right: 15px;
+  position: relative;
+  top: 122px;
+}
+
+.continentImage {
+  width: 100px;
+  position: relative;
+  z-index: 0;
+  opacity: 0.7;
+  left: 30%;
+  bottom: 30%;
+}
+
+.countryInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #9c2955;
+  background-color: #772f4b;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 90%;
+  padding: 20px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.countryImage {
+  width: 40%;
+  position: relative;
+  top: 5px;
+  right: 30%;
+}
+
+.AreaCode {
+  font-size: 1.1rem;
+  text-decoration: underline;
+  font-weight: 700;
+  text-shadow: 1px 1px 5px black;
+  align-self: flex-end;
+  position: relative;
+  bottom: -37px;
+}
+
+.AreaCodeData {
+  align-self: flex-end;
+  position: relative;
+  bottom: -54px;
+  opacity: 0.8;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.property {
+  align-self: flex-start;
+}
+
+.propHeader {
+  font-size: 1.1rem;
+  text-decoration: underline;
+  font-weight: 700;
+  text-shadow: 1px 1px 5px black;
+}
+
+.selectedPosition {
+  opacity: 0.8;
+  font-size: 1.2rem;
+}
+
+.selectedPosition::before {
+  content: "-";
+  margin-right: 5px;
+}
+
+.allCountry {
+  display: flex;
+  flex-direction: column;
+  row-gap: 7px;
+  padding: 15px 15px;
+}
+
+.coutryName {
+  width: 90%;
+  height: 60px;
+  border: 2px solid #9c2955;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.coutryName:nth-child(even) {
+  background-color: #e6729e;
+}
+
+.coutryName:nth-child(odd) {
+  background-color: #9c2955;
+  border: 2px solid rgb(230, 114, 158);
+}
+
+.coutryName > a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 10px;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 5px black;
+  flex-wrap: nowrap;
+}
