@@ -19,7 +19,7 @@ const imageMap = {
   Antarctic,
 };
 
-const SingleContinent = ({ name }) => {
+function SingleContinent({ name }) {
   const continentImage = imageMap[name];
 
   return (
@@ -36,13 +36,13 @@ const SingleContinent = ({ name }) => {
       <Outlet />
     </div>
   );
-};
+}
 
 SingleContinent.propTypes = {
   name: PropTypes.string.isRequired,
 };
 
-const Continents = () => {
+function Continents() {
   const allContinents = ['Africa', 'Europe', 'North America', 'South America', 'Asia', 'Oceania', 'Antarctic'];
 
   return (
@@ -52,12 +52,12 @@ const Continents = () => {
                   <SingleContinent key={continent} name={continent} />
                 ))
             }
-            <div>
-                  Total Population
-                  <br />
-                  {allContinents.population}
-                </div>
+      <div>
+        Total Population
+        <br />
+        {allContinents.population}
+      </div>
     </section>
   );
-};
+}
 export default Continents;

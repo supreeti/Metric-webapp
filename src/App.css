@@ -143,6 +143,11 @@ svg {
   border-radius: 10px;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 .searchResults > a {
   display: flex;
   justify-content: space-between;
@@ -158,11 +163,6 @@ svg {
 .countryFlag {
   width: 70px;
   height: 40px;
-}
-
-a {
-  color: white;
-  text-decoration: none;
 }
 
 .continents {
@@ -240,11 +240,6 @@ a {
   padding: 20px;
   box-sizing: border-box;
   flex-wrap: wrap;
-}
-
-.countryName {
-  font-size: 1.5rem;
-  align-self: flex-start;
 }
 
 .countryImage {
@@ -330,17 +325,4 @@ a {
   text-shadow: 1px 1px 5px black;
   flex-wrap: nowrap;
   padding-left: 10px;
-}
-
-.countryName {
-  height: 50%;
-  margin: auto 0;
-  max-width: 70%;
-}
-
-.countryFlag {
-  width: 10%;
-  height: 70%;
-  position: relative;
-  right: 25px;
 }

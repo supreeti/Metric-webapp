@@ -8,7 +8,7 @@ import { RegionDisplay, Search } from './components/search';
 import { CountryDisplay } from './components/country';
 import './App.css';
 
-const App = () => {
+function App() {
   const dispatch = useDispatch();
   dispatch(fetchData());
 
@@ -24,6 +24,6 @@ const App = () => {
       </Routes>
     </div>
   );
-};
+}
 
 export default App;

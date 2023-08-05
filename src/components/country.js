@@ -1,9 +1,11 @@
 import PropTypes from 'prop-types';
 import '../App.css';
-import { useParams, Navigate, Link, Outlet } from 'react-router-dom';
+import {
+  useParams, Navigate, Link, Outlet,
+} from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
-const CountryDisplay = () => {
+function CountryDisplay() {
   const { name } = useParams();
   const countries = useSelector((state) => state.countries.data);
   const selected = countries.filter((country) => country.name.common === name)[0];
@@ -48,17 +50,19 @@ const CountryDisplay = () => {
       )}
     </section>
   );
-};
+}
 
-const Country = ({ country }) => (
-  <>
-    <Link to={`/details/coutries/${country.name.common}`}>
-      <span className="countryName">{country.name.common}</span>
-      {country.flags.png && <img src={country.flags.png} alt={country.flags.alt} className="countryFlag" />}
-    </Link>
-    <Outlet />
-  </>
-);
+function Country({ country }) {
+  return (
+    <>
+      <Link to={`/details/coutries/${country.name.common}`}>
+        <span className="countryName">{country.name.common}</span>
+        {country.flags.png && <img src={country.flags.png} alt={country.flags.alt} className="countryFlag" />}
+      </Link>
+      <Outlet />
+    </>
+  );
+}
 Country.propTypes = {
   country: PropTypes.shape({
     name: PropTypes.shape({
@@ -80,4 +84,4 @@ Country.propTypes = {
   }).isRequired,
 };
 
-export { CountryDisplay, Country};
+export { CountryDisplay, Country };

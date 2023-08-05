@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom';
 import { Country } from './country';
 import '../App.css';
 
-const RegionDisplay = () => {
+function RegionDisplay() {
   let { name } = useParams();
   if (name === 'South America' || name === 'North America') {
     name = 'Americas';
@@ -23,9 +23,9 @@ const RegionDisplay = () => {
         }
     </section>
   );
-}; 
+}
 
-const Search = () => {
+function Search() {
   const [results, setResults] = useState('');
   const countries = useSelector((state) => state.countries.data);
 
@@ -46,10 +46,10 @@ const Search = () => {
         <input type="search" name="search" id="search" placeholder="enter a country..." onChange={(e) => setResults(e.target.value)} />
       </section>
       <section className="searchResults">
-        {countries.filter((country) => (results.toLowerCase() === '' ? country : country.name.common.toLowerCase().includes(results.toLowerCase()))).map((country) => (<CountryMin key={country.name.common} country={country} />))}
+        {countries.filter((country) => (results.toLowerCase() === '' ? country : country.name.common.toLowerCase().includes(results.toLowerCase()))).map((country) => (<Country key={country.name.common} country={country} />))}
       </section>
     </section>
   );
-};
+}
 
 export { RegionDisplay, Search };
